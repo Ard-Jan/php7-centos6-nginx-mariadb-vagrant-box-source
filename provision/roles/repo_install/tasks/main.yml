@@ -1,0 +1,20 @@
+---
+- name: Add EPEL RPM
+  yum:
+    name: https://dl.fedoraproject.org/pub/epel/epel-release-latest-6.noarch.rpm
+    state: present
+
+- name: Add Webtatic RPM
+  yum:
+    name: https://mirror.webtatic.com/yum/el6/latest.rpm
+    state: present
+
+- name: Add IUS RPM
+  yum:
+    name: https://centos6.iuscommunity.org/ius-release.rpm
+    state: present
+
+- name: Add Remi RPM
+  yum:
+    name: http://rpms.remirepo.net/enterprise/remi-release-6.rpm
+    state: present

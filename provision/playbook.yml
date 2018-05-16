@@ -1,0 +1,13 @@
+---
+- name: "Provision Vagrant"
+  hosts: default
+  become: true
+  remote_user: vagrant
+  roles:
+    - repo_install
+    - common
+    - php7
+    - mariadb
+    - composer
+    - bash
+    - nginx

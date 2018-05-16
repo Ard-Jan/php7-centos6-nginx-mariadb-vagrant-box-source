@@ -1,0 +1,6 @@
+---
+mysql_user: mysql
+mysql_root_password: password
+mysql_log_directory: /var/log/mysql
+mysql_data_directory: /var/lib/mysql
+mysql_port: 3306

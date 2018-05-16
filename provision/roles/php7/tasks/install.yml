@@ -1,0 +1,13 @@
+---
+- name: Install PHP7 and extensions
+  yum:
+    pkg: "{{ item }}"
+    state: latest
+    enablerepo: remi-php72
+  with_items: "{{ php_packages }}"
+
+- name: Start PHP-FPM
+  service:
+    name: php-fpm
+    state: started
+    enabled: true

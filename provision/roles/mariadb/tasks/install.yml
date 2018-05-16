@@ -1,0 +1,13 @@
+---
+- name: Add mariadb repo
+  template:
+    src: mariadb.repo.j2
+    dest: /etc/yum.repos.d/mariadb.repo
+    mode: 0644
+    owner: root
+    group: root
+
+- name: Install MariaDB
+  yum:
+    name: MariaDB
+    state: latest

@@ -1,0 +1,4 @@
+---
+composer_home_path: "~/.composer"
+composer_global_packages:
+  - { name: phpunit/phpunit, release: "6.1.0" }
