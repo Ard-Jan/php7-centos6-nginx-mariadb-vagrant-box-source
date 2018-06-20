@@ -7,7 +7,7 @@ Source environment for my [php7 Centos6 Nginx MariaDB](https://app.vagrantup.com
 * [Ansible](http://docs.ansible.com/ansible/index.html)
 
 ### Versions
-> Basebox:centos/6 1803.01
+> Basebox:centos/6 >= 1803.01
 
 * CentOS release 6.9 (Final)
 * Git 2.x
