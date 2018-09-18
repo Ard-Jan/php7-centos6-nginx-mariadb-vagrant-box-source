@@ -1,6 +1,7 @@
 ---
 php_packages:
   - php
+  - php-apcu
   - php-bcmath
   - php-cli
   - php-common
